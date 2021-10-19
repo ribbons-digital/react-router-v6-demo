@@ -1,13 +1,13 @@
-import React, { StrictMode } from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
-import App from './App';
+import React, { StrictMode } from "react";
+import ReactDOM from "react-dom";
+import "./index.scss";
+import AppWrapper from "./App";
 
 ReactDOM.render(
   <StrictMode>
-    <App />
+    <AppWrapper />
   </StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 module?.hot.accept();
